@@ -27,34 +27,34 @@ main{
 
 .container-header{
     background-color: #ABCFE7;
-    height: 70px;
+    height: 15%;
+    margin-bottom: 2%;
 }
 
 .container-main-left{
-    margin: 1% auto;
     background-color: #ABCFE7;
-    width: 24%;
-    height: 400px;
+    width: 23%;
+    height: 75%;
     float:left;
-    display: inline-block;
+    display: inline;
 }
 
 .container-main-center{
-    margin: 1% 1% auto;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #ABCFE7;
     width: 50%;
-    height: 400px;
+    height: 75%;
     display: inline-block;
     
 }
 
 .container-main-right{
-    margin: 1% auto;
     background-color: #ABCFE7;
-    width: 24%;
-    height: 400px;
+    width: 23%;
+    height: 75%;
     float:right;
-    display: inline-block;
+    display: inline;
 }
 
 footer{
