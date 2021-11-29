@@ -3,10 +3,6 @@ body{
     margin-right: 10%;
 }
 
-.container{
-
-}
-
 header{
     background-color: #E579E6;
     height: 70px;
@@ -15,26 +11,31 @@ header{
 
 nav{
     background-color: #E1D67A;
-    height: 500px;
+    height: 300px;
 }
 
 main{
     margin: 15px auto;
     background-color: #0087FC;
-    height: 500px;
-    display: block;
+    padding-bottom: 2%;
+}
+
+.clear-fix::after{
+    display: table;
+    content: "";
+    clear: both;
 }
 
 .container-header{
     background-color: #ABCFE7;
-    height: 15%;
+    height: 100px;
     margin-bottom: 2%;
 }
 
 .container-main-left{
     background-color: #ABCFE7;
     width: 23%;
-    height: 75%;
+    height: 500px;
     float:left;
     display: inline;
 }
@@ -44,7 +45,7 @@ main{
     margin-right: 2%;
     background-color: #ABCFE7;
     width: 50%;
-    height: 75%;
+    height: 500px;
     display: inline-block;
     
 }
@@ -52,7 +53,7 @@ main{
 .container-main-right{
     background-color: #ABCFE7;
     width: 23%;
-    height: 75%;
+    height: 500px;
     float:right;
     display: inline;
 }
